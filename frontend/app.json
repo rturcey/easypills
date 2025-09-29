@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "frontend",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "frontend",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash-image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F3F4F6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "com.anonymous.frontend"
+    },
+    "android": {
+      "package": "com.anonymous.frontend",
+      "edgeToEdgeEnabled": true,
+      "icon": "./assets/images/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#F3F4F6"
+      },
+      "splash": {
+        "image": "./assets/images/splash-image.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#F3F4F6"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "notification": {
+      "icon": "./assets/images/notification/ic_notification.png",
+      "color": "#2C3E50"
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "EasyPills a besoin de la caméra pour scanner les codes-barres et ordonnances."
+        }
+      ]
+    ]
+  }
+}

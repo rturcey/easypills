@@ -1,0 +1,272 @@
+🔍 Knip --strict (more rules) → frontend
+Unused files (36)
+jest.setup.js                                
+lighthouse.config.js                         
+src/components/dev/index.ts                  
+src/components/dev/NewGuideCreator.tsx       
+src/components/eligibility/logic/index.ts    
+src/components/eligibility/logic/rules.ts    
+src/components/eligibility/logic/types.ts    
+src/components/form/StepActions.tsx          
+src/components/form/steps/index.tsx          
+src/components/guides/CategoryFilter.tsx     
+src/components/marketing/FeatureGrid.tsx     
+src/components/results/index.ts              
+src/components/results/SignaturePad.tsx      
+src/components/ui/DropdownMenu.tsx           
+src/components/ui/progress/index.ts          
+src/components/ui/progress/ProgressDots.tsx  
+src/components/utils/types.ts                
+src/constants/legal.ts                       
+src/hooks/index.ts                           
+src/hooks/useAnalytics.ts                    
+src/hooks/useGuides.ts                       
+src/hooks/usePerformanceMonitoring.ts        
+src/hooks/useResultsPage.ts                  
+src/lib/api.ts                               
+src/lib/bootstrap.ts                         
+src/lib/cache.ts                             
+src/lib/fetchJSON.ts                         
+src/lib/seo-mobile-config.ts                 
+src/lib/statusClass.ts                       
+src/lib/yaml-guide-validator.ts              
+src/lib/yaml-schema.ts                       
+src/lib/yaml-templates.ts                    
+src/types/components.ts                      
+src/types/index.ts                           
+src/types/seo.ts                             
+src/utils/motion.ts                          
+Unused dependencies (5)
+@radix-ui/react-dropdown-menu  package.json:36:6
+@radix-ui/react-slot           package.json:37:6
+class-variance-authority       package.json:38:6
+eslint-plugin-react-refresh    package.json:40:6
+tailwind-merge                 package.json:47:6
+Unused exports (165)
+default                         class     src/components/common/ErrorBoundary.tsx:170:8        
+useErrorHandler                 function  src/components/common/ErrorBoundary.tsx:173:17       
+withErrorBoundary               function  src/components/common/ErrorBoundary.tsx:181:17       
+ErrorBoundary                             src/components/common/index.ts:1:20                  
+LoadingSpinner                            src/components/common/index.ts:2:20                  
+default                         variable  src/components/common/LoadingSpinner.tsx:28:8        
+StickyMobileCTA                           src/components/cta/index.ts:1:20                     
+default                         function  src/components/eligibility/EligibilityFlow.tsx:19:25 
+EligibilityForm                           src/components/eligibility/index.ts:1:20             
+ResultsDisplay                            src/components/eligibility/index.ts:2:20             
+ExitIntentModal                           src/components/eligibility/index.ts:3:20             
+EligibilityHero                           src/components/eligibility/index.ts:4:20             
+EligibilityFlow                           src/components/eligibility/index.ts:5:20             
+ResultPanel                               src/components/eligibility/index.ts:6:20             
+GlobalError                               src/components/form/FormLayout.tsx:49:14             
+default                         variable  src/components/form/FormSubmissionButton.tsx:73:8    
+FormLayout                                src/components/form/index.ts:1:20                    
+MobileNavigation                          src/components/form/index.ts:2:20                    
+SaveStatus                                src/components/form/index.ts:3:20                    
+TextAreaField                             src/components/form/index.ts:4:20                    
+RadioGroup                                src/components/form/index.ts:5:20                    
+AddressInput                              src/components/form/index.ts:6:20                    
+ReformatDescriptionModal                  src/components/form/index.ts:7:20                    
+FormSubmissionButton                      src/components/form/index.ts:8:20                    
+BackOnlyNavigation                        src/components/form/index.ts:9:20                    
+TestDataButton                            src/components/form/index.ts:10:20                   
+default                         variable  src/components/form/TestDataButton.tsx:54:8          
+default                         function  src/components/guides/ContextualCTA.tsx:99:25        
+default                         function  src/components/guides/GuideDisclaimer.tsx:13:25      
+default                         function  src/components/guides/GuideEssentials.tsx:92:25      
+default                         function  src/components/guides/GuideHero.tsx:31:25            
+default                         function  src/components/guides/GuideMobileNavigation.tsx:30:25
+useGuideNavigation              function  src/components/guides/GuideNavigation.tsx:96:17      
+default                         function  src/components/guides/GuideNavigation.tsx:113:8      
+default                         function  src/components/guides/GuideSection.tsx:154:25        
+GuideCard                                 src/components/guides/index.ts:2:20                  
+GuideNavigation                           src/components/guides/index.ts:3:20                  
+SearchBar                                 src/components/guides/index.ts:4:20                  
+TableOfContents                           src/components/guides/index.ts:5:20                  
+GuideHero                                 src/components/guides/index.ts:8:20                  
+GuideEssentials                           src/components/guides/index.ts:9:20                  
+GuideMobileNavigation                     src/components/guides/index.ts:10:20                 
+GuideSection                              src/components/guides/index.ts:11:20                 
+TableComparison                           src/components/guides/index.ts:12:20                 
+ContextualCTA                             src/components/guides/index.ts:13:20                 
+GuideDisclaimer                           src/components/guides/index.ts:15:20                 
+ProcedureSteps                            src/components/guides/index.ts:16:20                 
+GuideTOCMobile                            src/components/guides/index.ts:17:20                 
+GuideTOCDesktop                           src/components/guides/index.ts:18:20                 
+GuideProgress                             src/components/guides/index.ts:19:20                 
+GuideRightSidebar                         src/components/guides/index.ts:20:20                 
+default                         function  src/components/guides/ProcedureSteps.tsx:8:25        
+useTableOfContents                        src/components/guides/TableOfContents.tsx:244:14     
+TableOfContentsSkeleton                   src/components/guides/TableOfContents.tsx:279:14     
+TopBar                                    src/components/layout/index.ts:2:20                  
+Footer                                    src/components/layout/index.ts:3:20                  
+LegalDisclaimer                           src/components/layout/index.ts:4:20                  
+default                         function  src/components/layout/LegalDisclaimer.tsx:23:8       
+LegalLayout                               src/components/legal/index.ts:1:20                   
+LegalSection                              src/components/legal/index.ts:2:20                   
+LegalBreadcrumbs                          src/components/legal/index.ts:4:20                   
+default                         function  src/components/legal/LegalBreadcrumbs.tsx:28:8       
+MobileFAQItem                             src/components/marketing/index.ts:4:20               
+ProblemsSection                           src/components/sections/index.ts:1:20                
+ProcessSection                            src/components/sections/index.ts:2:20                
+TrustSovereigntySection                   src/components/sections/index.ts:4:20                
+default                         variable  src/components/seo/GuideSchema.tsx:206:8             
+HomePageSchema                            src/components/seo/index.tsx:1:20                    
+GuideSchema                               src/components/seo/index.tsx:2:20                    
+default                         function  src/components/ui/AlternativeOptions.tsx:27:25       
+generateBreadcrumbs                       src/components/ui/Breadcrumbs.tsx:153:14             
+useBreadcrumbs                            src/components/ui/Breadcrumbs.tsx:194:14             
+BreadcrumbsSkeleton                       src/components/ui/Breadcrumbs.tsx:211:14             
+PrimaryButton                             src/components/ui/Button.tsx:344:14                  
+SecondaryButton                           src/components/ui/Button.tsx:348:14                  
+OutlineButton                             src/components/ui/Button.tsx:352:14                  
+GhostButton                               src/components/ui/Button.tsx:356:14                  
+DangerButton                              src/components/ui/Button.tsx:360:14                  
+useButtonLoading                function  src/components/ui/Button.tsx:371:17                  
+default                         function  src/components/ui/CompanyContact.tsx:16:25           
+Label                                     src/components/ui/index.ts:4:20                      
+Select                                    src/components/ui/index.ts:8:20                      
+Breadcrumbs                               src/components/ui/index.ts:11:20                     
+ValidationMessage                         src/components/ui/index.ts:12:20                     
+StepIndicator                             src/components/ui/index.ts:13:20                     
+SkeletonFactory                           src/components/ui/index.ts:14:20                     
+LegalReference                            src/components/ui/index.ts:15:20                     
+ProcedureStep                             src/components/ui/index.ts:16:20                     
+CompanyContact                            src/components/ui/index.ts:18:20                     
+AlternativeOptions                        src/components/ui/index.ts:19:20                     
+TimelineProcess                           src/components/ui/index.ts:20:20                     
+default                         variable  src/components/ui/Label.tsx:15:8                     
+LegalReferenceBadge             function  src/components/ui/LegalReference.tsx:454:17          
+LegalReferenceTooltip           function  src/components/ui/LegalReference.tsx:458:17          
+LegalReferenceInline            function  src/components/ui/LegalReference.tsx:462:17          
+LegalReferenceExpandable        function  src/components/ui/LegalReference.tsx:466:17          
+default                         function  src/components/ui/ProcedureStep.tsx:30:25            
+default                         variable  src/components/ui/Select.tsx:27:8                    
+SkeletonFactory                           src/components/ui/SkeletonFactory.tsx:14:14          
+useSkeletonState                          src/components/ui/SkeletonFactory.tsx:368:14         
+default                                   src/components/ui/SkeletonFactory.tsx:386:8          
+InlineLegalRefs                 function  src/components/ui/TextWithLegalRefs.tsx:261:17       
+BadgeLegalRefs                  function  src/components/ui/TextWithLegalRefs.tsx:268:17       
+TooltipLegalRefs                function  src/components/ui/TextWithLegalRefs.tsx:275:17       
+ExpandableLegalRefs             function  src/components/ui/TextWithLegalRefs.tsx:291:17       
+useExtractLegalArticles         function  src/components/ui/TextWithLegalRefs.tsx:306:17       
+extractLegalReferencesFromText  function  src/components/ui/TextWithLegalRefs.tsx:313:17       
+default                         function  src/components/ui/TimelineProcess.tsx:21:25          
+useApi                          function  src/hooks/useApi.ts:16:17                            
+useFormDraft                    function  src/hooks/useApi.ts:92:17                            
+useLetter                       function  src/hooks/useApi.ts:224:17                           
+useValidation                   function  src/hooks/useApi.ts:352:17                           
+useAppState                     function  src/hooks/useApi.ts:447:17                           
+useErrorHandler                 function  src/hooks/useApi.ts:486:17                           
+useFormSteps                    function  src/hooks/useApi.ts:523:17                           
+ArticleNotFoundError                      src/legal/api.ts:344:9                               
+RegistryNotLoadedError                    src/legal/api.ts:344:31                              
+ArticleInvalidError                       src/legal/api.ts:344:55                              
+LegalApiError                             src/legal/api.ts:344:76                              
+getArticle                      function  src/legal/api.ts:351:23                              
+getArticleSync                  function  src/legal/api.ts:359:17                              
+useLegalArticles                function  src/legal/hooks.ts:113:17                            
+useLegalSearch                  function  src/legal/hooks.ts:198:17                            
+useLegalRegistry                function  src/legal/hooks.ts:279:17                            
+useLegalArticlesByCode          function  src/legal/hooks.ts:329:17                            
+useLegalChangeDetection         function  src/legal/hooks.ts:371:17                            
+CODE_NAMES                                src/legal/registry.ts:63:14                          
+CODE_TO_LEGITEXT                          src/legal/registry.ts:72:14                          
+isValidLegalCode                function  src/legal/registry.ts:520:17                         
+trackEvent                                src/lib/analytics.ts:8:14                            
+getAllGuides                    function  src/lib/guide-registry.ts:305:17                     
+getOriginalYAMLForSlug          function  src/lib/guide-registry.ts:324:17                     
+getAllGuideSlugs                function  src/lib/guide-registry.ts:331:17                     
+getGuideYAML                    function  src/lib/guide-registry.ts:341:17                     
+hashString                      function  src/lib/guide-utils.ts:134:17                        
+hash01                          function  src/lib/guide-utils.ts:147:17                        
+slugify                         function  src/lib/guide-utils.ts:166:17                        
+excerpt                         function  src/lib/guide-utils.ts:180:17                        
+isValidGuideSlug                function  src/lib/guide-utils.ts:192:17                        
+getIconForSlug                  function  src/lib/icon-utils.ts:73:17                          
+getCategoryWithIcon             function  src/lib/icon-utils.ts:85:17                          
+getContextualIcon               function  src/lib/icon-utils.ts:106:17                         
+getAllCategoriesWithIcons       function  src/lib/icon-utils.ts:152:17                         
+isSupportedCategory             function  src/lib/icon-utils.ts:181:17                         
+LazyEligibilityForm                       src/lib/performance.ts:7:14                          
+LazyResultsDisplay                        src/lib/performance.ts:13:14                         
+LazyExitIntentModal                       src/lib/performance.ts:19:14                         
+preloadComponents                         src/lib/performance.ts:26:14                         
+throttle                                  src/lib/performance.ts:51:14                         
+createIntersectionObserver                src/lib/performance.ts:64:14                         
+measurePerformance                        src/lib/performance.ts:80:14                         
+normalizeText                   function  src/lib/search-utils.ts:24:17                        
+createUnifiedSearchFilter       function  src/lib/search-utils.ts:44:17                        
+generateUnifiedSuggestions      function  src/lib/search-utils.ts:110:17                       
+createGuideSearchFilter         function  src/lib/search-utils.ts:168:17                       
+createFAQSearchFilter           function  src/lib/search-utils.ts:175:17                       
+ValidationManager               class     src/lib/validation.ts:46:14                          
+validateEmail                             src/lib/validation.ts:171:14                         
+showMessage                               src/lib/validation.ts:175:14                         
+extractYAMLMetadata             function  src/lib/yaml-guide-converter.ts:290:17               
+DEFECT_TYPE_LABELS                        src/types/api.ts:200:14                              
+REQUESTED_ACTION_LABELS                   src/types/api.ts:209:14                              
+FORMULA_CONFIG                            src/types/api.ts:215:14                              
+LEGAL_ARTICLES                            src/types/api.ts:254:14                              
+VALIDATION_PATTERNS                       src/types/api.ts:265:14                              
+Unused exported types (59)
+AltKind                  type       src/components/ui/AlternativeOptions.tsx:8:13 
+Alternative              interface  src/components/ui/AlternativeOptions.tsx:10:18
+AlternativeOptionsProps  interface  src/components/ui/AlternativeOptions.tsx:21:18
+CompanyContactProps      interface  src/components/ui/CompanyContact.tsx:6:18     
+DisclaimerBoxProps       interface  src/components/ui/DisclaimerBox.tsx:6:18      
+AlertType                type       src/components/ui/ErrorAlert.tsx:6:13         
+ErrorAlertProps          interface  src/components/ui/ErrorAlert.tsx:8:18         
+FaqItem                  interface  src/components/ui/FAQ.tsx:4:18                
+FAQProps                 interface  src/components/ui/FAQ.tsx:10:18               
+LabelProps               interface  src/components/ui/Label.tsx:5:18              
+StepState                type       src/components/ui/ProcedureStep.tsx:6:13      
+ProcedureStepProps       interface  src/components/ui/ProcedureStep.tsx:8:18      
+SelectProps              interface  src/components/ui/Select.tsx:5:18             
+TextWithLegalRefsProps   interface  src/components/ui/TextWithLegalRefs.tsx:14:18 
+TimelineStatus           type       src/components/ui/TimelineProcess.tsx:6:13    
+TimelineItem             interface  src/components/ui/TimelineProcess.tsx:8:18    
+TimelineProcessProps     interface  src/components/ui/TimelineProcess.tsx:16:18   
+EligibilityReason        type       src/eligibility/engine.ts:4:13                
+EligibilityTiming        type       src/eligibility/engine.ts:11:13               
+EligibilityResult        type       src/eligibility/engine.ts:17:13               
+ValidationResult         type       src/hooks/useEligibilityForm.tsx:10:13        
+TOCItem                  interface  src/hooks/useTableOfContents.ts:5:18          
+LegalCode                type       src/legal/registry.ts:5:13                    
+IconSize                 type       src/lib/icon-utils.ts:33:13                   
+SearchField              interface  src/lib/search-utils.ts:15:18                 
+Address                  interface  src/types/api.ts:5:18                         
+Consumer                 interface  src/types/api.ts:12:18                        
+Seller                   interface  src/types/api.ts:20:18                        
+Product                  interface  src/types/api.ts:27:18                        
+DefectType               type       src/types/api.ts:38:13                        
+Defect                   interface  src/types/api.ts:46:18                        
+RequestedAction          type       src/types/api.ts:55:13                        
+LetterRequest            interface  src/types/api.ts:57:18                        
+DraftStatus              type       src/types/api.ts:67:13                        
+DraftEventType           type       src/types/api.ts:69:13                        
+DraftUpdateResult        interface  src/types/api.ts:86:18                        
+LetterStatus             type       src/types/api.ts:94:13                        
+ApiResponse              interface  src/types/api.ts:111:18                       
+PaymentStatus            type       src/types/api.ts:134:13                       
+PaymentIntent            interface  src/types/api.ts:136:18                       
+FormulaType              type       src/types/api.ts:146:13                       
+Formula                  interface  src/types/api.ts:148:18                       
+EligibilityTest          interface  src/types/api.ts:158:18                       
+EligibilityResult        type       src/types/api.ts:167:13                       
+UseFormOptions           interface  src/types/api.ts:176:18                       
+FormField                interface  src/types/api.ts:182:18                       
+RadioUI                  type       src/types/eligibility.ts:5:13                 
+DateUI                   type       src/types/eligibility.ts:10:13                
+StepUI                   type       src/types/eligibility.ts:11:13                
+StepLegal                interface  src/types/eligibility.ts:13:18                
+StepValidationType       type       src/types/eligibility.ts:43:13                
+StepValidation           interface  src/types/eligibility.ts:44:18                
+ValidationRule           interface  src/types/form.tsx:2:18                       
+StepId                   type       src/types/form.tsx:13:13                      
+Step                     interface  src/types/form.tsx:15:18                      
+AddressSearchResponse    interface  src/types/form.tsx:184:18                     
+AddressFeature           interface  src/types/form.tsx:191:18                     
+ValidationAPI            interface  src/types/form.tsx:216:18                     
+OnFieldChange            type       src/types/form.tsx:225:13                     
+Duplicate exports (1)
+SkeletonFactory|default  src/components/ui/SkeletonFactory.tsx
